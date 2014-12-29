@@ -10,3 +10,11 @@ body {
 	opacity: 0.2;
 	transition: opacity 600ms;
 }
+
+.small-box {
+	height: 130px;
+	width: 130px;
+	background-color: #128912;
+	padding: 20px;
+	margin: 20px;
+}

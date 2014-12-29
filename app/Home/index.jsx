@@ -8,10 +8,8 @@ module.exports = React.createClass({
 			<p>This is the homepage.</p>
 			<p>Try to go to a todo list page:</p>
 			<ul>
-				<li><Link to="todolist" params={{list: "mylist"}}>mylist</Link></li>
-				<li><Link to="todolist" params={{list: "otherlist"}}>otherlist</Link></li>
+				<li><Link to="gridtestpage">dnd Grid test page</Link></li>
 			</ul>
-			<p>Or try to switch to <Link to="some-page">some page</Link>.</p>
 		</div>;
 	}
 });

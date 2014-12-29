@@ -11,8 +11,7 @@ if(!Object.assign)
 module.exports = (
 	<Route name="app" path="/" handler={require("./Application")}>
 		<Route name="some-page" path="/some-page" handler={require("./SomePage")} />
-		<Route name="todolist" path="/:list" handler={require("./TodoList")} />
-		<Route name="todoitem" path="/todo/:item" handler={require("./TodoItem")} />
+		<Route name="gridtestpage" path="/gridtestpage" handler={require("./DndGridTestPage")} />
 		<DefaultRoute name="home" handler={require("./Home")} />
 	</Route>
 );

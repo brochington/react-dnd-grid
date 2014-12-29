@@ -17,7 +17,6 @@ var Application = React.createClass({
 	render: function() {
 		return <div className={this.state.loading ? "application loading" : "application"}>
 			{this.state.loading ? <div style={{float: "right"}}>loading...</div> : null}
-			<h1>react-starter</h1>
 			<RouteHandler />
 		</div>;
 	}
